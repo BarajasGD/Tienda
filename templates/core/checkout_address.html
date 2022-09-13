@@ -20,7 +20,7 @@
             
             {% if payment_allow == "allow" %}
 
-            <a href="#" class="btn btn-block login-btn">Go For Payment</a>
+            <a href="{% url 'payment'%}" class="btn btn-block login-btn">Go For Payment</a>
 
             {% else %}
             <h1 class="login-title">Checkout Address</h1>

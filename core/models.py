@@ -71,6 +71,7 @@ class Order(models.Model):
     datetime_ofpayment = models.DateTimeField(auto_now_add=True)
     order_delivered = models.BooleanField(default=False)
     order_received = models.BooleanField(default=False)
+
     razorpay_order_id = models.CharField(max_length=500, null=True, blank=True)
     razorpay_payment_id = models.CharField(max_length=500, null=True, blank=True)
     razorpay_signature = models.CharField(max_length=500, null=True, blank=True)

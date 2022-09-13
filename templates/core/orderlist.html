@@ -106,7 +106,7 @@
             <tr>
               <th scope="row">{{forloop.counter}}</th>
               <td>{{ order_item.product.name }}</td>
-              <td>Rs. {{ order_item.product.price }}</td>
+              <td>Dlls. {{ order_item.product.price }}</td>
               <td>
                 <a href="{% url 'add_item' order_item.product.pk %}">+</a> &nbsp;
                 {{ order_item.quantity }} &nbsp;
