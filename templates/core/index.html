@@ -48,7 +48,7 @@
           <ul>
             {% if user.is_authenticated %}
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto active" href="#">Cart&nbsp;&nbsp;
+            <li><a class="nav-link scrollto active" href="{% url 'orderlist'%}">Cart&nbsp;&nbsp;
             <div style="color:red;">{{request.user | cart_item_count }}</div>
             </a></li>
             {% if user.is_superuser %}
