@@ -97,7 +97,7 @@ h6 {
 #header .logo {
   overflow: hidden;
   padding: 16px 30px 12px 30px;
-  background: #009970;
+  background: #A7ADBB;
 }
 
 #header .logo h1 {
@@ -190,7 +190,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #009970;
+  color: #A7ADBB;
 }
 
 .navbar .getstarted,
